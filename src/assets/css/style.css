@@ -4694,6 +4694,12 @@ h5.posts-category {
   border-radius: 100%;
 }
 
+.red,.purple{
+  color:white !important
+}
+
+ .red #purple
+
 .featured-badge.ico-30 [class*="flaticon-"]:before, 
 .featured-badge.ico-30 [class*="flaticon-"]:after { line-height: 42px!important; }
 
@@ -5622,6 +5628,14 @@ img.footer-logo {
   color: #998da0;
   background-color: transparent;
   border: 2px solid #998da0;
+}
+
+.active{
+  text-decoration: underline !important;
+}
+
+.inactive{
+  text-align: none !important;
 }
 
 .page-link:hover {
