@@ -7,8 +7,8 @@ import { NavLink, Link } from "react-router-dom";
 export class Header extends Component {
   render() {
     return (
-      <header id="header" className="header tra-menu navbar-dark">
-        <div className="header-wrapper">
+      <header id="header" className="header tra-menu navbar-dark bg-dark">
+        <div className="header-wrapper bg-dark">
           {/* MOBILE HEADER */}
           <div className="wsmobileheader clearfix">
             <span className="smllogo">
@@ -19,7 +19,7 @@ export class Header extends Component {
             </a>
           </div>
           {/* NAVIGATION MENU */}
-          <div className="wsmainfull menu clearfix">
+          <div className="wsmainfull menu clearfix bg-dark">
             <div className="wsmainwp clearfix">
               {/* HEADER LOGO */}
               <div className="desktoplogo">

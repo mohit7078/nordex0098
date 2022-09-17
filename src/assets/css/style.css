@@ -2154,7 +2154,7 @@ h5.sm-title {
 
 .tra-menu .wsmainfull {
   background-color: transparent!important;
-  padding: 20px 0;
+  padding: 0px 0;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -2188,12 +2188,12 @@ h5.sm-title {
   letter-spacing: 0;
   margin: 0 7px;
   padding: 10px 15px;
-  line-height: 50px;
+  line-height: 40px;
   text-decoration: none;  
 }
 
 .navbar-dark .wsmenu > .wsmenu-list > li > a {
-  color: #463853;
+  color: white;
 }
 
 .navbar-light .wsmenu > .wsmenu-list > li > a {
@@ -2232,7 +2232,7 @@ h5.sm-title {
   letter-spacing: 0;
   margin-top: 14px;
   margin-left: 12px;
-  padding: 5px 30px;
+  padding: 0px 30px;
 }
 
 .wsmenu > .wsmenu-list > li a.header-store {
@@ -4000,7 +4000,7 @@ ul.features li p {
   -webkit-border-radius: 14px;
   -moz-border-radius: 14px;
   -o-border-radius: 14px;
-  border-radius: 14px;
+  border-radius: 120px;
 }
 
 /*------------------------------------------*/
@@ -5688,6 +5688,16 @@ img.footer-logo {
 
 nav a#pull {  
   display: none;  
+}
+
+.zoom {
+  padding: 31px;
+  transition: transform 0.5s; /* Aman zoom img Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.25); /* */
 }
 
 

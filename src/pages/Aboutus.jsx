@@ -1,4 +1,9 @@
 import React, { Component } from 'react'
+import about_hero_group_img from "../assets/images/about-2-img.jpg"
+import about_brand_1 from "../assets/images/brand-1.png"
+import Beauty_Simplicity from   "../assets/images/img-02.png"
+import team_1 from "../assets/images/team-1.jpg"
+import logo from "../assets/images/logo.png"
 
 export class Aboutus extends Component {
 
@@ -97,7 +102,7 @@ export class Aboutus extends Component {
               <div className="row">
                 <div className="col-md-12">
                   <div className="img-block mt-50 mb-70">
-                    <img className="img-fluid" src="images/about-2-img.jpg" alt="content-image" />
+                    <img className="img-fluid" src={about_hero_group_img} alt="content-image" />
                   </div>
                 </div>	
               </div>
@@ -367,7 +372,9 @@ export class Aboutus extends Component {
                 {/* IMAGE BLOCK */}
                 <div className="col-md-5 col-lg-6">
                   <div className="img-block left-column pc-20 mb-40 wow fadeInRight" data-wow-delay="0.6s">
-                    <img className="img-fluid" src="images/img-02.png" alt="content-image" />
+
+                  {/* All we do is dream left side image  */}
+                    <img className="img-fluid" src={Beauty_Simplicity} alt="content-image" />
                   </div>
                 </div>
                 {/* TEXT BLOCK */}	
@@ -406,61 +413,61 @@ export class Aboutus extends Component {
                     {/* BRAND LOGO IMAGE */}
                     <div className="brand-logo">
                       <a href="#">
-                        <img className="img-fluid" src="images/brand-1.png" alt="brand-logo" />
+                        <img className="img-fluid" src={about_brand_1} alt="brand-logo" />
                       </a>
                     </div>
                     {/* BRAND LOGO IMAGE */}
                     <div className="brand-logo">
                       <a href="#">
-                        <img className="img-fluid" src="images/brand-2.png" alt="brand-logo" />
+                        <img className="img-fluid" src={about_brand_1} alt="brand-logo" />
                       </a>
                     </div>
                     {/* BRAND LOGO IMAGE */}
                     <div className="brand-logo">
                       <a href="#">
-                        <img className="img-fluid" src="images/brand-3.png" alt="brand-logo" />
+                        <img className="img-fluid" src={about_brand_1} alt="brand-logo" />
                       </a>
                     </div>
                     {/* BRAND LOGO IMAGE */}
                     <div className="brand-logo">
                       <a href="#">
-                        <img className="img-fluid" src="images/brand-4.png" alt="brand-logo" />
+                        <img className="img-fluid" src={about_brand_1} alt="brand-logo" />
                       </a>
                     </div>
                     {/* BRAND LOGO IMAGE */}
                     <div className="brand-logo">
                       <a href="#">
-                        <img className="img-fluid" src="images/brand-5.png" alt="brand-logo" />
+                        <img className="img-fluid" src={about_brand_1} alt="brand-logo" />
                       </a>
                     </div>
                     {/* BRAND LOGO IMAGE */}
                     <div className="brand-logo">
                       <a href="#">
-                        <img className="img-fluid" src="images/brand-6.png" alt="brand-logo" />
+                        <img className="img-fluid" src={about_brand_1} alt="brand-logo" />
                       </a>
                     </div>
                     {/* BRAND LOGO IMAGE */}
                     <div className="brand-logo">
                       <a href="#">
-                        <img className="img-fluid" src="images/brand-7.png" alt="brand-logo" />
+                        <img className="img-fluid" src={about_brand_1} alt="brand-logo" />
                       </a>
                     </div>
                     {/* BRAND LOGO IMAGE */}
                     <div className="brand-logo">
                       <a href="#">
-                        <img className="img-fluid" src="images/brand-8.png" alt="brand-logo" />
+                        <img className="img-fluid" src={about_brand_1} alt="brand-logo" />
                       </a>
                     </div>
                     {/* BRAND LOGO IMAGE */}
                     <div className="brand-logo">
                       <a href="#">
-                        <img className="img-fluid" src="images/brand-9.png" alt="brand-logo" />
+                        <img className="img-fluid" src={about_brand_1} alt="brand-logo" />
                       </a>
                     </div>
                     {/* BRAND LOGO IMAGE */}
                     <div className="brand-logo">
                       <a href="#">
-                        <img className="img-fluid" src="images/brand-10.png" alt="brand-logo" />
+                        <img className="img-fluid" src={about_brand_1} alt="brand-logo" />
                       </a>
                     </div>
                   </div>
@@ -491,57 +498,15 @@ export class Aboutus extends Component {
               {/* TEAM MEMBERS HOLDER */}	
               <div className="team-members-holder pc-20 text-center">
                 <div className="row">
-                  {/* TEAM MEMBER #1 */}
-                  <div className="col-sm-6 col-lg-3">
-                    <div className="team-member wow fadeInUp" data-wow-delay="0.4s">
-                      {/* Team Member Photo */}
-                      <div className="team-member-photo pc-10">
-                        <img className="img-fluid" src="images/team-1.jpg" alt="team-member-foto" />
-                      </div>
-                      {/* Team Member Data */}		
-                      <div className="team-member-data">	
-                        <h5 className="h5-sm">Jonathan Barnes</h5>
-                        <p>Founder and CEO</p>
-                        <span><a href="#" className="grey-color">@jonatanbarnes</a></span>
-                      </div>	
-                    </div>									
-                  </div>	{/* END TEAM MEMBER #1 */}
-                  {/* TEAM MEMBER #2 */}
-                  <div className="col-sm-6 col-lg-3">
-                    <div className="team-member wow fadeInUp" data-wow-delay="0.6s">
-                      {/* Team Member Photo */}
-                      <div className="team-member-photo pc-10">
-                        <img className="img-fluid" src="images/team-2.jpg" alt="team-member-foto" />
-                      </div>
-                      {/* Team Member Data */}		
-                      <div className="team-member-data">													
-                        <h5 className="h5-sm">Jamie Bartlett</h5>
-                        <p>Software Engineer</p>
-                        <span><a href="#" className="grey-color">@jamiebartlett</a></span>
-                      </div>	
-                    </div>											
-                  </div>	{/* END TEAM MEMBER #2 */}
-                  {/* TEAM MEMBER #3 */}
-                  <div className="col-sm-6 col-lg-3">
-                    <div className="team-member wow fadeInUp" data-wow-delay="0.8s">
-                      {/* Team Member Photo */}
-                      <div className="team-member-photo pc-10">
-                        <img className="img-fluid" src="images/team-3.jpg" alt="team-member-foto" />
-                      </div>
-                      {/* Team Member Data */}		
-                      <div className="team-member-data">														
-                        <h5 className="h5-sm">Matthew Anderson</h5>
-                        <p>Software Engineer</p>
-                        <span><a href="#" className="grey-color">@matthewanderson</a></span>
-                      </div>
-                    </div>	
-                  </div>	{/* END TEAM MEMBER #3 */}
+                
+                  
+                  
                   {/* TEAM MEMBER #4 */}
                   <div className="col-sm-6 col-lg-3">
                     <div className="team-member wow fadeInUp" data-wow-delay="1s">
                       {/* Team Member Photo */}
                       <div className="team-member-photo pc-10">
-                        <img className="img-fluid" src="images/team-4.jpg" alt="team-member-foto" />
+                        <img className="img-fluid zoom" src={team_1} alt="team-member-foto" />
                       </div>
                       {/* Team Member Data */}		
                       <div className="team-member-data">													
@@ -556,7 +521,7 @@ export class Aboutus extends Component {
                     <div className="team-member wow fadeInUp" data-wow-delay="0.4s">
                       {/* Team Member Photo */}
                       <div className="team-member-photo pc-10">
-                        <img className="img-fluid" src="images/team-5.jpg" alt="team-member-foto" />
+                        <img className="img-fluid zoom" src={team_1} alt="team-member-foto" />
                       </div>
                       {/* Team Member Data */}		
                       <div className="team-member-data">	
@@ -571,7 +536,7 @@ export class Aboutus extends Component {
                     <div className="team-member wow fadeInUp" data-wow-delay="0.6s">
                       {/* Team Member Photo */}
                       <div className="team-member-photo pc-10">
-                        <img className="img-fluid" src="images/team-6.jpg" alt="team-member-foto" />
+                        <img className="img-fluid zoom" src={team_1} alt="team-member-foto" />
                       </div>
                       {/* Team Member Data */}		
                       <div className="team-member-data">													
@@ -586,7 +551,7 @@ export class Aboutus extends Component {
                     <div className="team-member wow fadeInUp" data-wow-delay="0.8s">
                       {/* Team Member Photo */}
                       <div className="team-member-photo pc-10">
-                        <img className="img-fluid" src="images/team-7.jpg" alt="team-member-foto" />
+                        <img className="img-fluid zoom" src={team_1} alt="team-member-foto" />
                       </div>
                       {/* Team Member Data */}		
                       <div className="team-member-data">														
@@ -601,7 +566,7 @@ export class Aboutus extends Component {
                     <div className="team-member wow fadeInUp" data-wow-delay="1s">
                       {/* Team Member Photo */}
                       <div className="team-member-photo pc-10">
-                        <img className="img-fluid" src="images/team-8.jpg" alt="team-member-foto" />
+                        <img className="img-fluid zoom" src={team_1} alt="team-member-foto" />
                       </div>
                       {/* Team Member Data */}		
                       <div className="team-member-data">	
@@ -657,7 +622,7 @@ export class Aboutus extends Component {
                 <div className="col-md-12 col-lg-3">	
                   <div className="footer-info mb-40">
                     {/* Footer Logo */}	
-                    <img className="footer-logo" src="images/logo-01.png" alt="footer-logo" />
+                    <img className="footer-logo" src={logo} alt="footer-logo" />
                   </div>	
                 </div>
                 {/* FOOTER LINKS */}
