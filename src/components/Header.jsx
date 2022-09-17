@@ -7,6 +7,7 @@ import { NavLink, Link } from "react-router-dom";
 export class Header extends Component {
   render() {
     return (
+      <div>
       <header id="header" className="header tra-menu navbar-dark bg-dark">
         <div className="header-wrapper bg-dark">
           {/* MOBILE HEADER */}
@@ -149,6 +150,7 @@ export class Header extends Component {
         </div>{" "}
         {/* End header-wrapper */}
       </header>
+      </div>
     );
   }
 }

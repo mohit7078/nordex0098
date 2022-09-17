@@ -1140,7 +1140,7 @@ ol.digit-list p {
 }
 
 .btn-grey:focus {
-  color: #666; 
+  color: white; 
   -webkit-box-shadow: none;
   box-shadow: none; 
 }
@@ -2135,6 +2135,8 @@ h5.sm-title {
   width: auto;
   max-width: inherit;
   max-height: 38px;
+  background: white;
+  border-radius: 9px;
 }
 
 /*------------------------------------------*/
@@ -4597,7 +4599,7 @@ ul.features li p {
 
 .blog-post-txt {
   position: relative;
-  background-color: #fff;
+  background-color: black;
   border: 1px solid #eee;
   -webkit-border-radius: 0 0 8px 8px;
   -moz-border-radius: 0 0 8px 8px;
@@ -4616,11 +4618,11 @@ ul.features li p {
 }
 
 .blog-post-txt a {
-  color: #463853;
+  color: #f2eff4;
 }
 
 .blog-post-txt a:hover {
-  color: #998da0;
+  color: #fff;
 }
 
 /*------------------------------------------*/

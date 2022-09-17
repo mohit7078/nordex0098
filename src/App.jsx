@@ -15,12 +15,14 @@ import Terms from "./pages/Terms";
 import Single_post from "./pages/Single_post";
 import Header from "./components/Header";
 import Aboutus from "./pages/Aboutus";
+import Footer from "./components/Footer";
 
 export class App extends Component {
   render() {
     return (
       <>
         <Header />
+        
         <Routes>
           <Route exact path="/home" element={<Home />} />
           <Route path= "/blog" element={<Bloglisting />} />
@@ -35,6 +37,8 @@ export class App extends Component {
           <Route path="/Single_post" element={<Single_post />} />
           <Route path="aboutus" element={<Aboutus/>}/>
         </Routes>
+
+        <Footer/>
       </>
     );
   }
