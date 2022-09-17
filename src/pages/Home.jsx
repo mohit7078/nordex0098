@@ -22,6 +22,21 @@ import post_author from "../assets/images/post-author-1.jpg";
 import hike from "../assets/images/hike.png";
 
 export class Home extends Component {
+ 
+ 
+ 
+  state = {
+    open: false,
+  };
+
+  componentDidMount() {
+    this.setState({ open: true });
+    window.scrollTo(0,0)
+  }
+
+
+
+
   render() {
     return (
       <div>

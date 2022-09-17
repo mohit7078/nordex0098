@@ -24,6 +24,15 @@ import post11 from "../assets/images/blog/post-1-img.jpg"
 
 
 export class Blog_listing extends Component {
+  state = {
+    open: false,
+  };
+
+  componentDidMount() {
+    this.setState({ open: true });
+    window.scrollTo(0,0)
+  }
+
   render() {
     return (
         <div>

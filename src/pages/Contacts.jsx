@@ -4,6 +4,17 @@ import appstore from "../assets/images/appstore.png"
 import googleplay from "../assets/images/googleplay.png" 
 
 export class Contacts extends Component {
+
+  state = {
+    open: false,
+  };
+
+  componentDidMount() {
+    this.setState({ open: true });
+    window.scrollTo(0,0)
+  }
+
+
   render() {
     return (
         <div>

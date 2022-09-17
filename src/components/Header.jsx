@@ -36,61 +36,82 @@ export class Header extends Component {
               <nav className="wsmenu clearfix">
                 <ul className="wsmenu-list nav-skyblue-hover">
                   {/* SIMPLE NAVIGATION LINK */}
-                  
+
                   <li className="nl-simple" aria-haspopup="true">
-                    <NavLink to="/home"  className={({ isActive }) => (isActive ? 'active red' : 'inactive')}>
-                        Home
+                    <NavLink
+                      to="/home"
+                      className={({ isActive }) =>
+                        isActive ? "active red" : "inactive"
+                      }
+                    >
+                      Home
                     </NavLink>
-                  </li> 
-                  
+                  </li>
+
                   <li className="nl-simple" aria-haspopup="true">
-                    <NavLink to="/contacts" className={({ isActive }) => (isActive ? 'active purple' : 'inactive')}>
-                        Contact
+                    <NavLink
+                      to="/contacts"
+                      className={({ isActive }) =>
+                        isActive ? "active purple" : "inactive"
+                      }
+                    >
+                      Contact
                     </NavLink>
-                  </li> 
+                  </li>
 
                   {/* SIMPLE NAVIGATION LINK */}
-                  
+
+                
+                    
+
                   <li className="nl-simple" aria-haspopup="true">
-                    <NavLink to="/Bloglisting" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>
-                    Bloglisting
+                    <NavLink
+                      to="/aboutus"
+                      className={({ isActive }) =>
+                        isActive ? "active" : "inactive"
+                      }
+                    >
+                      About Us
                     </NavLink>
-                  </li> 
-                  {/* DROPDOWN MENU */}
-                  {/* <li aria-haspopup="true"><a href="#">Pages <span className="wsarrow" /></a>
-                    <div className="wsmegamenu clearfix halfmenu">
-                      <div className="container-fluid">
-                        <div className="row">
-                          <ul className="col-lg-6 link-list">	
-                            <li><a href="about.html">About NordEx</a></li>							                  
-                            <li><a href="features.html">Core Features</a></li>
-                            <li><a href="pricing.html">Pricing Plans</a></li>
-                            <li><a href="reviews.html">Testimonials</a></li>
-                            <Link to= "/moreapps">More Apps</Link>
-                          </ul>
-                          <ul className="col-lg-6 link-list">							                  
-                            
-                            <li><a href="blog-listing.html">Blog Listing</a></li>
-                            <li><a href="single-post.html">Single Blog Post</a></li>
-                            <li><a href="terms.html">Terms &amp; Privacy</a></li>
-                            <li><a href="contacts.html">Contact Us</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </li>	 */}
-                  {/* SIMPLE NAVIGATION LINK */}
-                  <li className="nl-simple" aria-haspopup="true">
-                    <a href="pricing.html">Pricing</a>
                   </li>
-                  {/* SIMPLE NAVIGATION LINK */}
                   <li className="nl-simple" aria-haspopup="true">
-                    <a href="faqs.html">FAQs</a>
+                    <NavLink
+                      to="/Pricing"
+                      className={({ isActive }) =>
+                        isActive ? "active" : "inactive"
+                      }
+                    >
+                      Pricing
+                    </NavLink>
                   </li>
-                  {/* SIMPLE NAVIGATION LINK */}
+
                   <li className="nl-simple" aria-haspopup="true">
-                    <a href="blog-listing.html">Blog</a>
+                    <NavLink
+                      to="/Faq"
+                      className={({ isActive }) =>
+                        isActive ? "active" : "inactive"
+                      }
+                    >
+                      FAQ
+                    </NavLink>
                   </li>
+                  <li className="nl-simple" aria-haspopup="true">
+                    <NavLink
+                      to="/blog"
+                      className={({ isActive }) =>
+                        isActive ? "active" : "inactive"
+                      }
+                    >
+                     Blog
+                    </NavLink>
+                  </li>
+
+                  {/* SIMPLE NAVIGATION LINK */}
+                
+                  {/* SIMPLE NAVIGATION LINK */}
+                 
+                  {/* SIMPLE NAVIGATION LINK */}
+                  
                   {/* HEADER BUTTON */}
                   <li className="nl-simple" aria-haspopup="true">
                     <a
