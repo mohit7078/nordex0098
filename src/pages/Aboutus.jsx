@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import about_hero_group_img from "../assets/images/about-2-img.jpg"
+import about_hero_group_img from "../assets/images/team.webp"
 import about_brand_1 from "../assets/images/brand-1.png"
 import Beauty_Simplicity from   "../assets/images/img-02.png"
-import team_1 from "../assets/images/team-1.jpg"
+import team_1 from "../assets/images/aman.png"
 import logo from "../assets/images/logo.png"
 
 export class Aboutus extends Component {

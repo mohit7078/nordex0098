@@ -131,7 +131,7 @@ export class Blog_listing extends Component {
                   </div>	{/* END  BLOG POST #1 */}
                   {/* BLOG POST #2 */}
                   <div className="col-md-6 col-lg-4">
-                    <div className="blog-post mb-40 wow fadeInUp" data-wow-delay="0.6s">	
+                    <div className="blog-post mb-40 wow fadeInUp" data-wow-delay="0.4s">	
                       {/* BLOG POST IMAGE */}
                       <div className="blog-post-img">
                         <img className="img-fluid" src={post11} alt="blog-post-image" />
@@ -139,24 +139,24 @@ export class Blog_listing extends Component {
                       {/* BLOG POST TEXT */}
                       <div className="blog-post-txt">
                         {/* Post Tag */}
-                        <p className="p-md post-tag">Inspiration</p>	
+                        <p className="p-md post-tag">NordEx News</p>	
                         {/* Post Link */}
                         <h5 className="h5-xs">
-                          <a href="single-post.html">Aliquam augue impedit luctus neque purus an ipsum neque and dolor libero risus</a>
+                          <a href="single-post.html">Tempor sapien donec gravida ipsum a porta justo vitae</a>
                         </h5>
                         {/* Text */}
-                        <p className="p-md">The aliqum mullam vitae tempor sapien and donec lipsum gravida porta velna dolor vitae auctor</p>
+                        <p className="p-md">Aliqum mullam blandit vitae and tempor sapien and donec lipsum gravida porta undo velna dolor</p>
                         {/* Post Meta */}
                         <div className="post-meta">
                           <div className="post-author-avatar"><img src={post_author} alt="author-avatar" /></div>
-                          <p>8 min read</p>
+                          <p>12 min read</p>
                         </div>	
-                      </div>	{/* END BLOG POST TEXT */}
+                      </div>
                     </div>
                   </div>	{/* END  BLOG POST #2 */}
                   {/* BLOG POST #3 */}
                   <div className="col-md-6 col-lg-4">
-                    <div className="blog-post mb-40 wow fadeInUp" data-wow-delay="0.8s">	
+                    <div className="blog-post mb-40 wow fadeInUp" data-wow-delay="0.4s">	
                       {/* BLOG POST IMAGE */}
                       <div className="blog-post-img">
                         <img className="img-fluid" src={post11} alt="blog-post-image" />
@@ -164,19 +164,19 @@ export class Blog_listing extends Component {
                       {/* BLOG POST TEXT */}
                       <div className="blog-post-txt">
                         {/* Post Tag */}
-                        <p className="p-md post-tag">Tutorials</p>	
+                        <p className="p-md post-tag">NordEx News</p>	
                         {/* Post Link */}
                         <h5 className="h5-xs">
-                          <a href="single-post.html">Tempor sapien donec gravida ipsum and porta justo</a>
+                          <a href="single-post.html">Tempor sapien donec gravida ipsum a porta justo vitae</a>
                         </h5>
                         {/* Text */}
-                        <p className="p-md">The aliqum mullam vitae tempor sapien and donec lipsum gravida porta velna dolor vitae auctor</p>
+                        <p className="p-md">Aliqum mullam blandit vitae and tempor sapien and donec lipsum gravida porta undo velna dolor</p>
                         {/* Post Meta */}
                         <div className="post-meta">
                           <div className="post-author-avatar"><img src={post_author} alt="author-avatar" /></div>
-                          <p>22 min read</p>
+                          <p>12 min read</p>
                         </div>	
-                      </div>	{/* END BLOG POST TEXT */}
+                      </div>
                     </div>
                   </div>	{/* END  BLOG POST #3 */}
                   {/* BLOG POST #4 */}
@@ -189,24 +189,24 @@ export class Blog_listing extends Component {
                       {/* BLOG POST TEXT */}
                       <div className="blog-post-txt">
                         {/* Post Tag */}
-                        <p className="p-md post-tag">Extensions</p>	
+                        <p className="p-md post-tag">NordEx News</p>	
                         {/* Post Link */}
                         <h5 className="h5-xs">
-                          <a href="single-post.html">Neque purus an ipsum neque and dolor libero risus mullam blandit at tempor sapien</a>
+                          <a href="single-post.html">Tempor sapien donec gravida ipsum a porta justo vitae</a>
                         </h5>
                         {/* Text */}
-                        <p className="p-md">The aliqum mullam vitae tempor sapien and donec lipsum gravida porta velna dolor vitae auctor</p>
+                        <p className="p-md">Aliqum mullam blandit vitae and tempor sapien and donec lipsum gravida porta undo velna dolor</p>
                         {/* Post Meta */}
                         <div className="post-meta">
                           <div className="post-author-avatar"><img src={post_author} alt="author-avatar" /></div>
-                          <p>1 day read</p>
+                          <p>12 min read</p>
                         </div>	
                       </div>
                     </div>
                   </div>	{/* END  BLOG POST #4 */}
                   {/* BLOG POST #5 */}
                   <div className="col-md-6 col-lg-4">
-                    <div className="blog-post mb-40 wow fadeInUp" data-wow-delay="0.6s">	
+                    <div className="blog-post mb-40 wow fadeInUp" data-wow-delay="0.4s">	
                       {/* BLOG POST IMAGE */}
                       <div className="blog-post-img">
                         <img className="img-fluid" src={post11} alt="blog-post-image" />
@@ -214,24 +214,24 @@ export class Blog_listing extends Component {
                       {/* BLOG POST TEXT */}
                       <div className="blog-post-txt">
                         {/* Post Tag */}
-                        <p className="p-md post-tag">Community</p>	
+                        <p className="p-md post-tag">NordEx News</p>	
                         {/* Post Link */}
                         <h5 className="h5-xs">
                           <a href="single-post.html">Tempor sapien donec gravida ipsum a porta justo vitae</a>
                         </h5>
                         {/* Text */}
-                        <p className="p-md">The aliqum mullam vitae tempor sapien and donec lipsum gravida porta velna dolor vitae auctor</p>
+                        <p className="p-md">Aliqum mullam blandit vitae and tempor sapien and donec lipsum gravida porta undo velna dolor</p>
                         {/* Post Meta */}
                         <div className="post-meta">
                           <div className="post-author-avatar"><img src={post_author} alt="author-avatar" /></div>
-                          <p>54 min read</p>
+                          <p>12 min read</p>
                         </div>	
-                      </div>	{/* END BLOG POST TEXT */}
+                      </div>
                     </div>
                   </div>	{/* END  BLOG POST #5 */}
                   {/* BLOG POST #6 */}
                   <div className="col-md-6 col-lg-4">
-                    <div className="blog-post mb-40 wow fadeInUp" data-wow-delay="0.8s">	
+                    <div className="blog-post mb-40 wow fadeInUp" data-wow-delay="0.4s">	
                       {/* BLOG POST IMAGE */}
                       <div className="blog-post-img">
                         <img className="img-fluid" src={post11} alt="blog-post-image" />
@@ -239,19 +239,19 @@ export class Blog_listing extends Component {
                       {/* BLOG POST TEXT */}
                       <div className="blog-post-txt">
                         {/* Post Tag */}
-                        <p className="p-md post-tag">Extensions</p>	
+                        <p className="p-md post-tag">NordEx News</p>	
                         {/* Post Link */}
                         <h5 className="h5-xs">
-                          <a href="single-post.html">Lipsum gravida porta velna NordEx, donec gravida ipsum a porta justo tempor</a>
+                          <a href="single-post.html">Tempor sapien donec gravida ipsum a porta justo vitae</a>
                         </h5>
                         {/* Text */}
-                        <p className="p-md">The aliqum mullam vitae tempor sapien and donec lipsum gravida porta velna dolor vitae auctor</p>
+                        <p className="p-md">Aliqum mullam blandit vitae and tempor sapien and donec lipsum gravida porta undo velna dolor</p>
                         {/* Post Meta */}
                         <div className="post-meta">
                           <div className="post-author-avatar"><img src={post_author} alt="author-avatar" /></div>
-                          <p>4 hours read</p>
+                          <p>12 min read</p>
                         </div>	
-                      </div>	{/* END BLOG POST TEXT */}
+                      </div>
                     </div>
                   </div>	{/* END  BLOG POST #6 */}
                 </div>  {/* End row */}

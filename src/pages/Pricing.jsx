@@ -392,12 +392,11 @@ export class Pricing extends Component {
                 <div className="col-lg-6">	
                   <div className="download-6-txt pl-20 wow fadeInUp" data-wow-delay="0.6s">
                     {/* Section ID */}	
-                    <span className="section-id">Powerful Settings</span>
+                    <span className="section-id"></span>
                     {/* Title 	*/}	
                     <h2 className="h2-md">Take Full Advantage of Smart Features</h2>	
                     {/* Text */}	
-                    <p className="p-xl">Aliquam a augue suscipit, luctus neque at purus ipsum neque dolor primis libero tempus, blandit 
-                      posuere orci auctor purus euismod an aliquam quaerat purus
+                    <p className="p-xl">Fast, Simple, and easy for users to search for new deals nearby without much issue and get the chance to look for new varieties rather than looking for the same old choices and help in giving the great customer experience and helping them in finding great deals and offers.
                     </p>
                     {/* STORE BADGES */}												
                     <div className="stores-badge">

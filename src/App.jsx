@@ -16,6 +16,7 @@ import Single_post from "./pages/Single_post";
 import Header from "./components/Header";
 import Aboutus from "./pages/Aboutus";
 import Footer from "./components/Footer";
+import Music from "./pages/Music";
 
 export class App extends Component {
   render() {
@@ -24,7 +25,7 @@ export class App extends Component {
         <Header />
         
         <Routes>
-          <Route exact path="/home" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route path= "/blog" element={<Bloglisting />} />
           <Route path="/Contacts" element={<Contacts />} />
           <Route path="/Demo_7" element={<Demo_7 />} />
@@ -35,7 +36,8 @@ export class App extends Component {
           <Route path="/review" element={<Review />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/Single_post" element={<Single_post />} />
-          <Route path="aboutus" element={<Aboutus/>}/>
+          <Route path="/aboutus" element={<Aboutus/>}/>
+          <Route path="/music" element={<Music/>}/>
         </Routes>
 
         <Footer/>

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import appstore from "../assets/images/appstore.png"
 
 import googleplay from "../assets/images/googleplay.png" 
+import Companyinfo from '../components/Companyinfo';
 
 export class Contacts extends Component {
 
@@ -109,7 +110,9 @@ export class Contacts extends Component {
         {/*
 		
 		*/}
+    <Companyinfo/>
       </div>
+    
     )
   }
 }
