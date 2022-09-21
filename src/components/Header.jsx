@@ -59,6 +59,16 @@ export class Header extends Component {
                       Contact
                     </NavLink>
                   </li>
+                  <li className="nl-simple" aria-haspopup="true">
+                    <NavLink
+                      to="/games"
+                      className={({ isActive }) =>
+                        isActive ? "active purple" : "inactive"
+                      }
+                    >
+                   Games
+                    </NavLink>
+                  </li>
 
                   {/* SIMPLE NAVIGATION LINK */}
 

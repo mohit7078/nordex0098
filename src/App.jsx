@@ -17,6 +17,7 @@ import Header from "./components/Header";
 import Aboutus from "./pages/Aboutus";
 import Footer from "./components/Footer";
 import Music from "./pages/Music";
+import Games from "./pages/Games";
 
 export class App extends Component {
   render() {
@@ -38,6 +39,7 @@ export class App extends Component {
           <Route path="/Single_post" element={<Single_post />} />
           <Route path="/aboutus" element={<Aboutus/>}/>
           <Route path="/music" element={<Music/>}/>
+          <Route path="/games" element={<Games/>}/>
         </Routes>
 
         <Footer/>

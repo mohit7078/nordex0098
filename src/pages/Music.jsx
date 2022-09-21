@@ -6,6 +6,7 @@ import Apple from "../components/Apple";
 import Applewatch from "../components/Applewatch";
 import Iphone_slider from "../components/Iphone_slider";
 import Pizza from "../components/Pizza";
+import Foodie from "../components/Foodie";
 
 export class Music extends Component {
   render() {
@@ -19,6 +20,7 @@ export class Music extends Component {
         <Applewatch />
         <Iphone_slider />
         <Pizza/>
+        <Foodie/>
       </>
     );
   }
